@@ -154,7 +154,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 
-const API_URL ="http://127.0.0.1:8000/transcribe";
+const API_URL = "https://medical-transcription-backend.onrender.com/transcribe";
 
 const ALL_CATEGORIES = [
   "Symptoms", "Medicine Names", "Dosage & Frequency", "Diseases / Conditions",
